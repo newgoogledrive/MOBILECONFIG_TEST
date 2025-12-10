@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>FullScreen</key>
+            <true/>
+            <key>IsRemovable</key>
+            <true/>
+            <key>Label</key>
+            <string>Install Shortcuts</string>
+            <key>PayloadIdentifier</key>
+            <string>com.robert.shortcutinstaller.webclip</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadUUID</key>
+            <string>11111111-2222-3333-4444-555555555555</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>Precomposed</key>
+            <true/>
+            <key>URL</key>
+            <string>data:text/html,
+                &lt;html&gt;
+                &lt;body style='font-family: -apple-system; padding: 20px; line-height: 1.5;'&gt;
+                    &lt;h1&gt;Shortcut Installer&lt;/h1&gt;
+                    &lt;p&gt;Tap below to install your two shortcuts.&lt;/p&gt;
+
+                    &lt;br&gt;
+                    &lt;a href='https://www.icloud.com/shortcuts/750528d795ab4e16b8c400ebaf9df4a0' style='font-size:20px;'&gt;Install Shortcut 1&lt;/a&gt;
+
+                    &lt;br&gt;&lt;br&gt;
+                    &lt;a href='https://www.icloud.com/shortcuts/cacca06c1d0e499e8d04cbcd17a12741' style='font-size:20px;'&gt;Install Shortcut 2&lt;/a&gt;
+
+                    &lt;br&gt;&lt;br&gt;&lt;br&gt;
+                    &lt;p style='opacity:0.7; font-size:14px;'&gt;
+                        Tip: For an easier setup on Shortcut 2, install the &lt;b&gt;a-shell mini&lt;/b&gt; app from the App Store.
+                    &lt;/p&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </string>
+        </dict>
+    </array>
+
+    <key>PayloadDisplayName</key>
+    <string>Shortcut Installer</string>
+    <key>PayloadIdentifier</key>
+    <string>com.robert.shortcutinstaller</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
